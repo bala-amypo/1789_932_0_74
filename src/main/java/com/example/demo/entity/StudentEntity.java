@@ -33,8 +33,10 @@ public class StudentEntity{
     public String getEmail(){
         return this.email;
     }
-    public void setCgpa(float){
-
-        
+    public void setCgpa(float cgpa){
+        this.cgpa=cgpa;
+    }
+    public void getCgpa(){
+        return this.cgpa;
     }
 }
