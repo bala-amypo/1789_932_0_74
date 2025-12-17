@@ -34,6 +34,7 @@ public class StudentEntity{
         return this.email;
     }
     public void setCgpa(float){
+
         
     }
 }
